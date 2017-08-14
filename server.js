@@ -22,7 +22,12 @@ var articalOne={
             </p>'
             
 };
-var htmlTemplete={
+function createTemplete(data){
+    var title=data.title;
+    var heading=data.heading;
+    var date=data.date;
+    var content=data.content;
+var htmlTemplete=
     <html>
     <head>
         <title>
@@ -55,7 +60,7 @@ var htmlTemplete={
     
 </html>
 
-    
+    ;
 }
 
 
