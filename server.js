@@ -14,11 +14,11 @@ app.get('/artical-one',function(req,res){
 });
 
 app.get('/artical-two',function(req,res){
-     res.sendFile(path.join(__dirname, 'ui', 'artical-two.html'));
+    res.send("Artical-two requested and will be searved here");
 });
 
 app.get('/artical-three',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'artical-three.html'));
+    res.send("Artical-three requested and will be searved here");
 });
 
 app.get('/ui/style.css', function (req, res) {
