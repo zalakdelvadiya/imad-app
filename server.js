@@ -61,6 +61,7 @@ var htmlTemplete=
 </html>
 
     ;
+    return htmlTemplete;
 }
 
 
@@ -69,7 +70,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/artical-one',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'artical-one.html'));
+    res.send(createTemplete(articalOne));
 });
 
 app.get('/artical-two',function(req,res){
