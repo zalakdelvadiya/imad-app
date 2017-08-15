@@ -7,10 +7,10 @@ app.use(morgan('combined'));
 
 
 var articalOne={
-    title:'Artical one | zalak delvadiya';
-    heading:'Artical one';
-    date:'aug 14,2017
-    content:'
+    title:'Artical one | zalak delvadiya',
+    heading:'Artical one',
+    date:'aug 14,2017',
+    content:`
             <p>
                 this is the content for my first artical.this is the content for my first artical.this is the content for my first artical.this is the content for my first artical.HI
             </p>
@@ -19,7 +19,7 @@ var articalOne={
             </p>
             <p>
                 this is the content for my first artical.this is the content for my first artical.this is the content for my first artical.this is the content for my first artical.
-            </p>'
+            </p>`
             
 };
 function createTemplete(data){
@@ -27,7 +27,7 @@ function createTemplete(data){
     var heading=data.heading;
     var date=data.date;
     var content=data.content;
-var htmlTemplete=
+var htmlTemplete=`
     <html>
     <head>
         <title>
@@ -58,7 +58,7 @@ var htmlTemplete=
         </div>
     </body>
     
-</html>
+</html>`
 
     ;
     return htmlTemplete;
