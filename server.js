@@ -12,7 +12,7 @@ var articalOne={
     date:'aug 14,2017
     content:'
             <p>
-                this is the content for my first artical.this is the content for my first artical.this is the content for my first artical.this is the content for my first artical.
+                this is the content for my first artical.this is the content for my first artical.this is the content for my first artical.this is the content for my first artical.HI
             </p>
             <p>
                 this is the content for my first artical.this is the content for my first artical.this is the content for my first artical.this is the content for my first artical.
